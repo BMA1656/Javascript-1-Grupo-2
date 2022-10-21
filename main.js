@@ -9,9 +9,8 @@ function mayorN(){
           mayor = arr[i];
          }
         }
-      return mayor;
-    }  
-    
+      return 'el mayor es: '+mayor;
+    }    
     console.log(mayorN())
     
     
@@ -38,8 +37,7 @@ function mayorN(){
       }
     }
       }
-    }
-    
+    }    
     }  
     console.log(palindromo('casa'));
     
