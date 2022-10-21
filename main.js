@@ -11,8 +11,7 @@ function mayorN(){
         }
       return 'el mayor es: '+mayor;
     }    
-    console.log(mayorN())
-    
+    console.log(mayorN())    
     
     function palindromo(palab){ 
       let array =[]; 
@@ -60,4 +59,20 @@ function mayorN(){
      }
      
      console.log(Contador())
+
+     function Duplicados(num){
+      let dup = [];
+      for (let i = 0; i < num.length; i++) {
+        if (num[i + 1] === num[i]) {
+          dup.push(num[i]);   
+        }  
+      } 
+        if(dup.length >= 1){
+          return dup;
+        }
+        else{
+          return 'no hay repetidos'
+        }
+      }
+      console.log(Duplicados([7,7,8,9,9,1,2,3,12,5,1,1]))
     
