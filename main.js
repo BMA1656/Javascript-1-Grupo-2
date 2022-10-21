@@ -75,4 +75,17 @@ function mayorN(){
         }
       }
       console.log(Duplicados([7,7,8,9,9,1,2,3,12,5,1,1]))
+
+
+      function asterico(num){
+        for(let i = 0; i <= num; ++i) {
+            let resultado = ' ';
+          for(let j = 1; j < i; ++j) {
+                resultado += '* ';
+            }
+              console.log(resultado);
+        }
+          
+        }
+        console.log(asterisco(11))
     
