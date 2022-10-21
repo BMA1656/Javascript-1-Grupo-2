@@ -76,16 +76,14 @@ function mayorN(){
       }
       console.log(Duplicados([7,7,8,9,9,1,2,3,12,5,1,1]))
 
-
-      function asterico(num){
-        for(let i = 0; i <= num; ++i) {
-            let resultado = ' ';
-          for(let j = 1; j < i; ++j) {
-                resultado += '* ';
-            }
-              console.log(resultado);
+      function asterisco(cant){
+        const cont = cant;
+        let asterisco = "";
+        
+        for(let i = 0; i <= cont-1; i++){
+          asterisco += "*";
+          console.log(' '+asterisco+' '); 
         }
-          
-        }
-        console.log(asterisco(11))
+           }
+           console.log(asterisco(5))
     
