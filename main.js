@@ -87,3 +87,14 @@ function mayorN(){
            }
            console.log(asterisco(5))
     
+                            /*--------------N/10/2022----------------*/
+
+           function revers(palabra) {
+            if (palabra.length == 1) {
+              return palabra;
+            } else {
+              return revers(palabra.substring(1)) + palabra.charAt(0);
+            }
+          }
+          
+          console.log(revers('say hello to mi little friend'))
