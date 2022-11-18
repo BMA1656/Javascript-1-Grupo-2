@@ -23,12 +23,10 @@ const nuevoVehiculo = {
   actualizarUnidades: function (unidades) {
     this.unidades = unidades
   },
-  actualizarPrecio: function (precio) {
-    this.precio = precio
-  },
-  actualizarEdicion: function (edicion) {
+  actualizarPreE: function (precio,edicion) {
+    this.precio = precio,
     this.edicion = edicion
-  },
+  }
 };
 
 const carroToyota = Object.create(nuevoVehiculo);
@@ -68,7 +66,7 @@ carroNissan.ingresarVehiculo({
 vehiculos.push(carroNissan);
 
 carroToyota.actualizarUnidades(20);
-carroToyota.actualizarPrecio(3000);
-carroToyota.actualizarEdicion(2077);
+carroToyota.actualizarPreE(3000123,2076);
+
 
 console.log(vehiculos);
